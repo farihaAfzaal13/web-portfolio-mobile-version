@@ -1275,7 +1275,7 @@ font-weight: 700;
 height: 10px;
 color: #EBEBFF;
 font-size: 15px;
-font-family: Poppins;
+font-family: Poppins,sans-serif;
 font-weight: 100;
 line-height: 28px;
 padding-left: 490px;
@@ -1292,7 +1292,7 @@ padding-left: 440px;
 padding-top: 100px;
 }
 .text-field2{
-   
+    font: Poppins,sans-serif;
     padding-left: 440px;
     padding-top: 40px;
     }
