@@ -65,7 +65,7 @@ position: relative;
 @media only screen and (max-width: 786px) {
     /* Styles specific to screens with a maximum width of 600px (typical mobile devices) */
     /* Desktop styles */
-    
+    .eclipsed,.rectangle,.rect7,.eclipse5,.eclipse11,.rectangle6,.rectangle7,.eclipse4,.ellipse12,.ellipse13,
     .navigation,.project,.project-container,.project-container1,.aboutmyselfblock,.about-container
     ,.languagescontainerd,.contactmed {
         display: none;
@@ -828,7 +828,7 @@ position: relative;
     width: 1100px;
     height: 496px;
  padding-top: 142px;
- padding-right: 10px;
+ padding-right: 130px;
  
     
    
@@ -1256,21 +1256,26 @@ left: 1440px;
                 width: 1395px;
 height: 846px;
 top: 5125px;
-background-color :rgba(96, 112, 255, 1)
+background-image: url(icons/contact\ form-\ background-shape-desktop.jpg);
 }
 .contact-messaged{
-   position: relative;
+
+   position: absolute;
+   top:4400px ;
     text-align: center;
     color: white;
     font-size: 40px;
+    width: 250px;
     font-family: Poppins, sans-serif; 
  padding-top: 140px;
  padding-bottom: 12px;
     word-wrap: break-word;
 font-weight: 700;
+
+padding-left: 500px;
 }
 .custom-messaged {
-    position:relative;
+    position:absolute;
     width: 400px;
 height: 10px;
 color: #EBEBFF;
@@ -1278,7 +1283,7 @@ font-size: 15px;
 font-family: Poppins,sans-serif;
 font-weight: 100;
 line-height: 28px;
-padding-left: 490px;
+padding-left: 450px;
 }
 .text-field-layout{
     width: 450px;
@@ -1288,12 +1293,12 @@ border: 1px;
 }
 .text-field{
    
-padding-left: 440px;
+padding-left: 420px;
 padding-top: 100px;
 }
 .text-field2{
     font: Poppins,sans-serif;
-    padding-left: 440px;
+    padding-left: 420px;
     padding-top: 40px;
     }
     .text-field-layout2{
@@ -1304,10 +1309,107 @@ padding-top: 100px;
     text-align: start;
 
 }
+.eclipsed{
+    position: absolute;
+top: 120px;
+left: 960px;
+
+}
+.eclipse3{
+    position:relative;
+top: 170px;
+left: 1020px;
+
+}
+.rectangle4{
+    position:relative;  
+    top: 5px;
+left: 1000px;
+}
+.rectangle{
+    position: absolute;  
+top: 40px;
+left: 900px;
+}
+.rect7{
+    position: absolute;
+top: 160px;
+left: 550px;
+}
+.eclipse5{
+position: absolute;
+top: 178px;
+left: 570px;
+
+}
+.eclipse11{
+position: absolute;  
+top: 120px;
+left: 90px;
+}
+.rectangle6{
+    position: absolute;  
+top: 60px;
+left: 60px;
+}
+.eclipse4{
+    position: absolute;
+    top:560px;
+    left:850px;
+}
+.rectangle7{
+    position: absolute;
+    top:550px;
+left:731.44px;
+}
 .last-button{
-   padding-left: 580px;
+   padding-left: 550px;
    line-height: 100px;
 }
+.ellipse12{
+position: absolute;   
+top: 630px;
+left: 290.7px;
+}
+.ellipsed12{
+    position: absolute;   
+  
+    top: 4520px;
+    left: 420px;
+    
+    }
+.ellipse13{
+    position: absolute;   
+top: 650px;
+left: 290.7px;
+}
+.ellipse13d{
+    position: absolute;   
+    top: 5000px;
+    left: 1000px;
+    
+}
+.ellippse5{
+    position: absolute;
+    top: 4800px;
+left: 111.53px;
+}
+.rect72{
+position: absolute;
+top:4734.61px;
+left:83.86px;
+}
+.rect61{
+    position: absolute;
+    top: 5070.35px;
+    left: 137px;
+   
+     }
+     .ellipse111{
+        position: absolute;
+top: 5095px;
+left: 157px;
+     }
 #special-project .project-content.special {
     box-shadow: 0px 48px 48px rgba(37.12, 47.22, 137.06, 0.08);
 }
